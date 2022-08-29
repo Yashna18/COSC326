@@ -13,6 +13,3 @@ If the program is given anything besides a whole int, it does not build the grap
 
 Images do not dynamically resize with the window but should the user wish, they may resize the window and click "Build" again to draw a snowflake
 that is approporiately sized for the current window. 
-
-I attempted to dynamically resize the image drawn by turtle but because images are not instantaneous in turtle, even if they are hidden from the
-UI, there are moments during runtime where the image is not visible as it needs to be redrawn to the resized window. 
